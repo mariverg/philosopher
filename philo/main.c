@@ -6,7 +6,7 @@
 /*   By: mariverg <mariverg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:16:21 by mariverg          #+#    #+#             */
-/*   Updated: 2024/11/06 10:14:27 by mariverg         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:14:24 by mariverg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,8 @@ bool	launcher(t_rules *rules)
 
 	i = 0;
 	phi = rules->philo;
-	printf("    Time     Philosopher       Action\n\n");
+	/* printf("   Time     Philosopher       Action\n");
+	printf("---------------------------------------\n"); */
 	rules->first_timestamp = timestamp();
 	while (i < rules->nb_philo)
 	{

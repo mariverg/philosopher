@@ -6,7 +6,7 @@
 /*   By: mariverg <mariverg@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 12:17:35 by mariverg          #+#    #+#             */
-/*   Updated: 2024/11/06 10:12:10 by mariverg         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:32:02 by mariverg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,9 +64,9 @@ bool			ft_init_rules(t_rules *rules, char **av);
 bool			launcher(t_rules *rules);
 
 //threads
-void	*philo_thread(void *philosopher);
-void	death_seeker(t_rules *rules, t_philo *p);
-void	finisher(t_rules *rules);
+void			*philo_thread(void *philosopher);
+void			death_seeker(t_rules *rules, t_philo *p);
+void			finisher(t_rules *rules);
 
 //utils & errors
 int				ft_atoi(char *n);
