@@ -33,8 +33,6 @@ bool	launcher(t_rules *rules)
 
 	i = 0;
 	phi = rules->philo;
-	/* printf("   Time     Philosopher       Action\n");
-	printf("---------------------------------------\n"); */
 	rules->first_timestamp = timestamp();
 	while (i < rules->nb_philo)
 	{

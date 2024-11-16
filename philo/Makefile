@@ -19,7 +19,6 @@ SRCS =	main.c \
 		init.c \
 		threads.c \
 		utils.c \
-		randomphilo.c
 
 OBJS = $(SRCS:%.c=%.o)
 
